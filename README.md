@@ -3,7 +3,7 @@ Python GUI with optional arduino input for automation with Keithley Instruments
 
 ## Description
 Keithley Instruments develop and sell a wide range of measurement and data acquisition products commonly used by professional
-companies and hobbists. On top of the basic features that these products carry, Keithley seperately sell tailor made add-on software that give assess to more features which are useful for scaling and semi-automation. https://www.tek.com/keithley 
+companies and hobbists. On top of the basic features that these products carry, [Keithley](https://www.tek.com/keithley) seperately sell tailor made add-on software that give assess to more features which are useful for scaling and semi-automation.
 
 Purchasing these additional features is highly recommended. However, for hobbists just keen on tkintering with these machines but find purchasing these features out-of-budget, the scripts in this repository provides an additional layer of semi-automation that saves time, money and energy.
 
@@ -29,13 +29,13 @@ Under Test mode, the script is hardcoded to run with the absence of some require
 
 ## Running Tests
 ### Preinstallation
-1) Python 3.4 or newer: https://www.python.org/downloads/
-2) For validating outputs, a simple database viewer/ SQLite Browser: e.g. https://sqlitebrowser.org/ and MS Excel
+1) [Python 3.4](https://www.python.org/downloads/) or newer
+2) For validating outputs, a simple database viewer/ [SQLite Browser](https://sqlitebrowser.org/) and MS Excel
 
 *Points 3 and 4 are optional and only necessary for manual triggering with an Arduino Uno PushButton:*
 
-3) Arduino IDE: https://www.arduino.cc/en/main/software
-4) Arduino PushButton setup: https://www.arduino.cc/en/Tutorial/StateChangeDetection
+3) [Arduino IDE](https://www.arduino.cc/en/main/software)
+4) [Arduino PushButton](https://www.arduino.cc/en/Tutorial/StateChangeDetection) setup
 
 Hardware Setup | Software Testing
 ------------ | -------------
@@ -74,11 +74,11 @@ Manual Triggering Screen | Description
 
 ## Deployment
 ### Preinstallation
-* Installing the necessary drivers as per your measuring equipment. e.g. For the Keithley DMM6500 Digital Multimeter: https://www.tek.com/digital-multimeter/daq6510-software/keithley-ivi-com-ivi-c-driver-models-dmm6500-and-daq6510
+* Installing the necessary drivers as per your measuring equipment. e.g. [Keithley DMM6500](https://www.tek.com/digital-multimeter/daq6510-software/keithley-ivi-com-ivi-c-driver-models-dmm6500-and-daq6510)
 * Confirming the connection between your measuring equipment and your PC.
   - Commands such as 'READ?' can be sent using your PC to the measuring equipment.
   - Measurements are returned from your measuring equipment to your PC.
-  - Recommended third-party software: https://www.rohde-schwarz.com/sg/applications/r-s-visa-application-note_56280-148812.html
+  - [Recommended third-party software](https://www.rohde-schwarz.com/sg/applications/r-s-visa-application-note_56280-148812.html)
 
 ### Installation
 #### Configuring serial number
@@ -104,5 +104,20 @@ python main.py
 
 ### Enhancements for Deployment
 #### Additional manual triggering options
-* Micro SMD PushButtons: https://www.alibaba.com/product-detail/smd-smt-side-push-button-tact_60104431684.html
-* USB Footpedals: https://www.dhgate.com/product/usb-foot-pedal-switch-control-keyboard-action/411540352.html
+* [Micro SMD PushButtons](https://www.alibaba.com/product-detail/smd-smt-side-push-button-tact_60104431684.html)
+* [USB Footpedals](https://www.dhgate.com/product/usb-foot-pedal-switch-control-keyboard-action/411540352.html)
+
+### Built With
+
+* [Python](https://www.python.org/downloads/)
+* [Python's Multithreading](https://docs.python.org/3.7/library/threading.html)
+* [PyVISA](https://pyvisa.readthedocs.io/en/latest/)
+* [pySerial](https://pythonhosted.org/pyserial/)
+* [Sqlite3](https://docs.python.org/3/library/sqlite3.html)
+* [Tkinter](https://docs.python.org/3/library/tk.html)
+* [Arduino](https://www.arduino.cc/en/main/software)
+
+
+### Author
+
+[Kelvin Tan Xuan De](https://github.com/kelvinxuande)
