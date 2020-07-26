@@ -1,4 +1,4 @@
-## Keithley openSource
+# Keithley opensource
 Python GUI with optional arduino input for automation with Keithley Instruments
 
 ## Description
