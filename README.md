@@ -21,7 +21,7 @@ However, should you face any difficulties in Testing/ Deploying the script, feel
 3) As a proof-of-concept, there are two methods of output were implemented - Upon script completion, a database file (created, or updated with seperate sessions appended) and a csv file (unique for each session) is created. Again, with some knowledge of python, it is easy to change output methods.
 
 ### Script flowchart
-![alt text](https://github.com/kelvinxuande/keithley_openSource/blob/master/images/Program%20Flowchart.png)
+![alt text](https://github.com/kelvinxuande/keithley_openSource/blob/master/images/Program%20Flowchart.jpg)
 
 ### For Testing or Deployment?
 Under Test mode, the script is hardcoded to run with the absence of some required hardware/ software, without fatal errors. Unlike the Deployment mode, it does not provide any useful data. Rather, it is meant to showcase the features, logic flow and GUI. The source code for Testing is the same as the one for Deployment, with the exception of some lines of codes (e.g. ones that involve querying) commented out.
